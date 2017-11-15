@@ -1,0 +1,85 @@
+.App {
+    text-align: center;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  color: rgba(0,0,0,0.8);
+  padding-bottom: 50px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-control{
+  height: 30px;
+  padding: 0px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.form-control.grey{
+  border-color: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.6);
+}
+
+button{
+    margin-left: 10px;
+    height: 30px;
+    padding: 0px 15px;
+    border-radius: 20px;
+    color: white;
+    border-color: transparent;
+    background-color: #61dafb;
+}
+
+button, input{
+  outline: unset;
+}
+
+table{
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #e0e3e5;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.10);
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+}
+
+thead > tr > th, td{
+  text-align: left;
+  padding: 10px 0px;
+}
+
+td:hover{
+  color: rgba(0, 0, 0, 0.3) !important;
+  text-decoration: line-through !important;
+}
+
+thead > tr > th:last-child, tbody > tr > td:last-child{
+  text-align: center;
+}
+
+thead > tr > th{
+  color: rgba(0,0,0,0.6);
+  padding-bottom: 15px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
